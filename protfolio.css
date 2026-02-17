@@ -11,14 +11,19 @@
 
 .headercolor {
   background-color:#FFF8F3;
+    background: url(images/developer.png),url(images/header_bg.png),#FFF8F3;
+  
+  background-position:top left,bottom right;
+  background-repeat: no-repeat;
+  
 }
 nav{
     width: 95%;
    
-   margin: 0px auto;
+   margin: 30px px;
    /* border: 1px solid red; */
     display: flex;
-    justify-content: space-between;
+     justify-content: space-around;
     align-items: center;
 }
 nav .logo{
@@ -45,4 +50,72 @@ nav .menu a{
     font-size: 20px;
     font-weight: bold;
     color: aliceblue;
-
+    cursor: pointer;
+}
+#banner{
+    display: flex;
+   margin:47px 38px 0px 230px ;
+   justify-content: space-between;
+   align-items: center;
+  
+}
+#banner .banner-content{
+    max-width: 585px;
+}
+#banner .banner-content h2{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+}
+#banner .banner-content h1{
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 25px;
+}
+#banner .banner-content p{
+    font-size: 18px;
+     color: #757575;
+     line-height: 30px;
+   margin-bottom: 30px;
+}
+#banner .banner-img{
+    max-width: 584px;
+    vertical-align: middle;
+}
+.about{
+    padding-top: 130px;
+}
+.about-content{
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+    text-align: center;
+    background-color: #fde6d5;
+    padding: 131px 156px;
+  
+}
+.info-container{
+    margin-top: 50px;
+    display: flex;
+     justify-content: space-around;
+}
+.info-card p{
+    font-size: 20px;
+   color: #474747;
+  
+}
+.info-card h3{
+    font-size: 20px;
+   
+}
+.extra-info{
+     width: 71%;
+  max-width: 1140px;
+   width: 71%;
+  max-width: 1140px;
+  margin:221px auto;
+    text-align: center;
+    
+}
