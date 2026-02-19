@@ -92,9 +92,12 @@ nav .menu a{
   max-width: 1140px;
   margin: 0 auto;
     text-align: center;
-    background-color: #fde6d5;
+    background-color: #fbf3ed;
     padding: 131px 156px;
   
+}
+.section-heading p{
+    margin-top: 30px;
 }
 .info-container{
     margin-top: 50px;
@@ -113,9 +116,99 @@ nav .menu a{
 .extra-info{
      width: 71%;
   max-width: 1140px;
-   width: 71%;
-  max-width: 1140px;
-  margin:221px auto;
-    text-align: center;
+  margin:100px auto;
+   
     
+}
+.heading{
+    text-align: center;
+}
+.explanation{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+.skills-box{
+    display: flex;
+     gap: 24px;
+}
+.skill-card{
+  
+  padding: 30px;
+   box-shadow: 0 6px 50px 0 #f0c9c9;
+   max-width: 261px;
+ 
+}
+.skill-card img{
+    max-width: 44px;
+   
+}
+.skill-card h3{
+   font-size: 20px;
+   color: black;
+  
+}
+.skill-card p{
+    margin-top: 20px;
+   font-size: 16px;
+   line-height: 20px;
+   color: #757575;
+
+
+}
+.resume-heading{
+    text-align: center;
+   margin-bottom: 70px;
+    margin-top: 113px;
+}
+.resume-box{
+    display: flex;
+    margin: 0 auto;
+}
+.education-heading{
+    margin-bottom: 30px;
+}
+.education-card{
+    margin-top: 30px;
+    max-width: 700px;
+    margin-bottom: 30px;
+}
+.education-card h4{
+    margin-bottom: 10px;
+   
+}
+.education-card h5{
+    margin-bottom: 20px;
+   
+}
+.experience-heading{
+    margin-bottom: 30px;
+    margin-left: 70px;
+}
+.experience-card{
+    margin-top: 30px;
+    max-width: 700px;
+    margin-bottom: 30px;
+    margin-left:71px ;
+}
+.experience-card h4{
+    margin-bottom: 10px;
+   
+}
+.experience-card h5{
+    margin-bottom: 20px;
+   
+}
+.education-content{
+    margin-right: 71px;
+}
+.experience-content{
+    margin-left: 71px;
+}
+.resume{
+      width: 71%;
+  max-width: 1140px;
+  margin:100px auto;
+   
 }
